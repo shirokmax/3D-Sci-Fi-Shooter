@@ -31,6 +31,13 @@ namespace SciFiShooter
         private bool m_IsJump;
         private bool m_IsCrouch;
         private bool m_IsSprint;
+        public bool IsAiming => m_IsAiming;
+        public bool IsCrouch => m_IsCrouch;
+        public bool IsSprint => m_IsSprint;
+        public bool IsGrounded => m_CharacterController.isGrounded;
+
+        private float m_DistanceToGround;
+        public float DistanceToGround => m_DistanceToGround;
 
         private Vector3 m_MovementDirection;
         private Vector3 m_DirectionControl;
@@ -46,6 +53,7 @@ namespace SciFiShooter
         private void Update()
         {
             Move();
+            UpdateDistanceToGround();
         }
 
         private void Move()
@@ -93,12 +101,18 @@ namespace SciFiShooter
             if (m_CharacterController.isGrounded == false)
                 return;
 
+            if (m_IsAiming == true) return;
+            if (m_IsCrouch == true) return;
+
             m_IsJump = true;
         }
 
         public void Crouch()
         {
             if (m_CharacterController.isGrounded == false)
+                return;
+
+            if (m_IsSprint == true)
                 return;
 
             m_IsCrouch = true;
@@ -139,6 +153,12 @@ namespace SciFiShooter
         public void UnAiming()
         {
             m_IsAiming = false;
+        }
+
+        private void UpdateDistanceToGround()
+        {
+            if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit))
+                m_DistanceToGround = hit.distance;    
         }
     }
 }
