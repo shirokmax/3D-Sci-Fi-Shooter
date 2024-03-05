@@ -34,10 +34,11 @@ namespace SciFiShooter
         public bool IsAiming => m_IsAiming;
         public bool IsCrouch => m_IsCrouch;
         public bool IsSprint => m_IsSprint;
-        public bool IsGrounded => m_CharacterController.isGrounded;
 
         private float m_DistanceToGround;
         public float DistanceToGround => m_DistanceToGround;
+        public bool IsGrounded => m_DistanceToGround < 0.01f;
+        public Vector3 Velocity => m_CharacterController.velocity;
 
         private Vector3 m_MovementDirection;
         private Vector3 m_DirectionControl;
@@ -60,15 +61,17 @@ namespace SciFiShooter
         {
             m_DirectionControl = Vector3.MoveTowards(m_DirectionControl, TargetDirectionControl, m_AccelerationRate * Time.deltaTime);
 
-            if (m_CharacterController.isGrounded)
+            if (IsGrounded)
             {
-                m_MovementDirection = TargetDirectionControl * GetCurrentSpeedByState();
+                m_MovementDirection = m_DirectionControl * GetCurrentSpeedByState();
 
                 if (m_IsJump == true)
                 {
                     m_MovementDirection.y = m_JumpSpeed;
                     m_IsJump = false;
                 }
+
+                m_MovementDirection = transform.TransformDirection(m_MovementDirection);
             }
 
             m_MovementDirection += Physics.gravity * Time.deltaTime;
@@ -98,7 +101,7 @@ namespace SciFiShooter
 
         public void Jump()
         {
-            if (m_CharacterController.isGrounded == false)
+            if (IsGrounded == false)
                 return;
 
             if (m_IsAiming == true) return;
@@ -109,7 +112,7 @@ namespace SciFiShooter
 
         public void Crouch()
         {
-            if (m_CharacterController.isGrounded == false)
+            if (IsGrounded == false)
                 return;
 
             if (m_IsSprint == true)
@@ -131,7 +134,7 @@ namespace SciFiShooter
 
         public void Sprint()
         {
-            if (m_CharacterController.isGrounded == false)
+            if (IsGrounded == false)
                 return;
 
             if (m_IsCrouch == true)

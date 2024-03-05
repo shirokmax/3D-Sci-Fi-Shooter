@@ -525,6 +525,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: GroundSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 3
+    m_ConditionEvent: DistanceToGround
+    m_EventTreshold: 0.3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6430774649556685626}
   m_Solo: 0
@@ -984,6 +987,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: GroundSpeed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 3
+    m_ConditionEvent: DistanceToGround
+    m_EventTreshold: 0.3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6430774649556685626}
   m_Solo: 0
