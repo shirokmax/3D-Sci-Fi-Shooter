@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\3d-sci-fi-shooter\\3d sci-fi shooter\\assets\\3d-sci-fi-shooter\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|solutionrelative:assets\\3d-sci-fi-shooter\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\assets\\3d-sci-fi-shooter\\scripts\\character\\charactermovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|solutionrelative:assets\\3d-sci-fi-shooter\\scripts\\character\\charactermovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\assets\\3d-sci-fi-shooter\\scripts\\common\\playershooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|solutionrelative:assets\\3d-sci-fi-shooter\\scripts\\common\\playershooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\3d-sci-fi-shooter\\3d sci-fi shooter\\assets\\3d-sci-fi-shooter\\scripts\\ui\\uiweaponenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|solutionrelative:assets\\3d-sci-fi-shooter\\scripts\\ui\\uiweaponenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\3d-sci-fi-shooter\\3d sci-fi shooter\\assets\\3d-sci-fi-shooter\\scripts\\ui\\uisight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE98B742-FACE-C150-9A23-48C2FE3D1A06}|Assembly-CSharp.csproj|solutionrelative:assets\\3d-sci-fi-shooter\\scripts\\ui\\uisight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UISight.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UISight.cs",
+              "RelativeDocumentMoniker": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UISight.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UISight.cs",
+              "RelativeToolTip": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UISight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:15:43.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIWeaponEnergy.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UIWeaponEnergy.cs",
+              "RelativeDocumentMoniker": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UIWeaponEnergy.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UIWeaponEnergy.cs",
+              "RelativeToolTip": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\UI\\UIWeaponEnergy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T22:15:46.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterMovementController.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Character\\CharacterMovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Character\\CharacterMovementController.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Character\\CharacterMovementController.cs",
+              "RelativeToolTip": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Character\\CharacterMovementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:27:45.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerShooter.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Common\\PlayerShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Common\\PlayerShooter.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Common\\PlayerShooter.cs",
+              "RelativeToolTip": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Common\\PlayerShooter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:10:15.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Weapon\\Weapon.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\3D-Sci-Fi-Shooter\\3D Sci-Fi Shooter\\Assets\\3D-Sci-Fi-Shooter\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeToolTip": "Assets\\3D-Sci-Fi-Shooter\\Scripts\\Weapon\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T16:24:48.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

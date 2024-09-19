@@ -6,6 +6,7 @@ namespace SciFiShooter
     {
         [SerializeField] private CharacterMovement m_TargetCharacterMovement;
         [SerializeField] private ThirdPersonCamera m_TargetCamera;
+        [SerializeField] private PlayerShooter m_TargetShooter;
         [SerializeField] private Vector3 m_AimingCameraOffset;
 
         private void Start()
@@ -24,6 +25,9 @@ namespace SciFiShooter
                 m_TargetCamera.IsRotateTarget = true;
             else
                 m_TargetCamera.IsRotateTarget = false;
+
+            if (Input.GetKey(KeyCode.Mouse0))
+                m_TargetShooter.Shoot();
 
             if (Input.GetButtonDown("Jump"))
                 m_TargetCharacterMovement.Jump();
